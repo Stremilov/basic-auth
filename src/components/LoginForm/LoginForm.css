@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #F8F8F9;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.registration {
+  width: 380px;
+  padding: 30px;
+  background-color: #F4F4F5;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.enter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.password_reset {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.registration_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+  height: 45px;
+  width: 100%;
+  padding-left: 15px;
+  border-radius: 12px;
+  border: 1px solid #DFDFE1;
+  font-size: 16px;
+  color: #999;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+input {
+  border: 1px solid #DFDFE1;
+  border-radius: 12px;
+}
+
+input:focus {
+  border-color: #333;
+}
+
+input.error {
+  border-color: red;
+}
+
+#submit {
+  height: 45px;
+  width: 100%;
+  border-radius: 12px;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.agreement {
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+  margin-top: 20px;
+}
+
+.agreement a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.registration_form {
+  margin-top: 10px;
+  text-align: center;
+}
